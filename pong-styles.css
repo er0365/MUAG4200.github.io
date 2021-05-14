@@ -17,13 +17,13 @@ body {
 }
 
 #left-paddle {
-  background-color: green;
+  background-color: blue;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: blue;
+  background-color: purple;
   right: 10px;
 }
 
