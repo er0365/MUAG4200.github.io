@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("thunderwall.wav");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("");
+export var ambientSound = new soundFile("wind.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
