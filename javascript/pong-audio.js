@@ -52,17 +52,17 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("thunderwall.wav");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("wind.mp3");
+export var ambientSound = new soundFile("pink.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -20; //turn down volume
+ambientSound.player.volume.value = -25; //turn down volume
 
-export var adventureMusic = new soundFile("theraincomescomplete.wav");
+export var adventureMusic = new soundFile("theraincomes2.wav");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -20;
 
-export var villageMusic = new soundFile("theraincomescomplete.wav");
+export var villageMusic = new soundFile("theraincomes2.wav");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -20;
