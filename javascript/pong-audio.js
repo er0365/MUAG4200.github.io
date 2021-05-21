@@ -43,13 +43,13 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("pongwall.wav"); //load sound
+export var wallSound = new soundFile("rainwall.wav"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("paddlethunder.wav");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("pongwall.wav");
+export var scoreSound = new soundFile("rainwall.wav");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("theraincomes.wav");
