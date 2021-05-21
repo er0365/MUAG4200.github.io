@@ -49,7 +49,7 @@ soundArray.push(wallSound); //add sound to list of sounds
 export var paddleSound = new soundFile("paddlethuder.wav");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("wallthunder2.wav");
+export var scoreSound = new soundFile("wallthunder3.wav");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("pink.mp3");
@@ -57,7 +57,7 @@ soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -25; //turn down volume
 
-export var adventureMusic = new soundFile("theraincomes2.wav");
+export var adventureMusic = new soundFile("theraincomes3.wav");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -25;
