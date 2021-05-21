@@ -49,7 +49,7 @@ soundArray.push(wallSound); //add sound to list of sounds
 export var paddleSound = new soundFile("pongpaddle.wav");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("phaserDown2.mp3");
+export var scoreSound = new soundFile("pongwall.wav");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("songprototype.mp3");
