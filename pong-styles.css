@@ -14,6 +14,8 @@ body {
   border: 5px solid black;
   left: 0;
   position: absolute;
+  background-image: url("./thunderstormfinal.jpg");
+  background-size: cover;
 }
 
 #left-paddle {
