@@ -28,7 +28,7 @@ body {
 }
 
 #instructions {
-  display: block;
+  display: none;
   bottom: 0;
   position: absolute;
   margin: 10px;
@@ -36,7 +36,7 @@ body {
 }
 
 #errors-debug {
-  display: block;
+  display: none;
   bottom: 0;
   position: absolute;
   margin: 10px;
@@ -45,6 +45,7 @@ body {
 }
 
 #errors {
+  display: none;
   color: red;
   font-weight: 700;
 }
